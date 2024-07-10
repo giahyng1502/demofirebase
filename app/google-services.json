@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613135421578",
+    "project_id": "demofirebase-c3161",
+    "storage_bucket": "demofirebase-c3161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613135421578:android:c898ac83a16a8765ef1d73",
+        "android_client_info": {
+          "package_name": "fpt.hunghvph46928.demofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCebq9WtXxBuE7-UFS8YM9FJ_ooZaxJijg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

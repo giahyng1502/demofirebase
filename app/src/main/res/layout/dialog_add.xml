@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/dia_Avatar"
+    android:src="@drawable/common_google_signin_btn_icon_light"
+    android:layout_height="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="ID : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtID"
+        android:hint="Nhập ID"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtName"
+        android:hint="Nhập tên"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Old : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtOld"
+        android:inputType="number"
+        android:hint="Nhập tuổi"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnThem"
+            android:layout_height="wrap_content"
+            android:text="Thêm"/>
+        <Button
+            android:layout_width="0dp"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:id="@+id/btnHuy"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
