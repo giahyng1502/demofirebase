@@ -50,6 +50,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         User user = list.get(position);
+
         Glide.with(context).load(user.getAvatar()).into(holder.ivAvatar);
         holder.tvID.setText("ID : "+user.getID());
         holder.tvName.setText("Name : "+user.getName());
